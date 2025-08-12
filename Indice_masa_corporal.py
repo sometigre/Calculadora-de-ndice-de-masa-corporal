@@ -1,7 +1,7 @@
 # Programa para calcular el indice de masa corporal
-# creo que la formula es peso / estatura al cuadrado
+# formula es peso / estatura al cuadrado
 
-# en esta seccion pedimos los datos a la persona que evaluaremos (variables: nombre, apPaterno, apMaterno, edad)
+# Pedimos los datos a la persona que evaluaremos (variables: nombre, apPaterno, apMaterno, edad)
 nombre = input("Escribe su nombre: ")
 apPaterno = input("Escribe su apellido paterno: ")
 apMaterno = input("Escribe su apellido materno: ")
@@ -45,3 +45,4 @@ elif imc >= 25 and imc < 30:
 else:
     print("Obesidad")
 print("===================================")
+
