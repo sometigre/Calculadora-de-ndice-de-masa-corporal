@@ -1,7 +1,7 @@
 # Programa para calcular el indice de masa corporal
-# formula es peso / estatura al cuadrado
+# creo que la formula es peso / estatura al cuadrado
 
-# Pedimos los datos a la persona que evaluaremos (variables: nombre, apPaterno, apMaterno, edad)
+# Pedimos los datos a la persona que evaluaremos los siguiente (variables: nombre, apPaterno, apMaterno, edad, peso, estatura)
 nombre = input("Escribe su nombre: ")
 apPaterno = input("Escribe su apellido paterno: ")
 apMaterno = input("Escribe su apellido materno: ")
@@ -12,24 +12,20 @@ while not edad.isdigit():
     edad = input("Edad: ")
 edad = int(edad)
 
-# pedir peso
 peso = input("Peso en kilos: ")
 while not peso.replace('.', '', 1).isdigit():
     print("Escribe un numero, puedes usar punto para decimales")
     peso = input("Peso en kilos: ")
 peso = float(peso)
 
-# pedir estatura
 estatura = input("Estatura en metros (ejemplo: 1.70): ")
 while not estatura.replace('.', '', 1).isdigit():
     print("Pon un numero valido")
     estatura = input("Estatura en metros (eejemplo: 1.70): ")
 estatura = float(estatura)
 
-# Formula para calcular IMC
 imc = peso / (estatura * estatura)
 
-# Se mostraran los resultados
 print("===================================")
 print("Hola", nombre, apPaterno, apMaterno)
 print("Tiene", edad, "años")
@@ -45,4 +41,3 @@ elif imc >= 25 and imc < 30:
 else:
     print("Obesidad")
 print("===================================")
-
