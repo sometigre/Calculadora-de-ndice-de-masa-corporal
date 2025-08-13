@@ -45,6 +45,8 @@ IMC	Clasificación
 25.0 – 29.9	Sobrepeso
 ≥ 30.0	Obesidad
 
+### ESTE CÓDIGO ES BÁSICO, le faltan algunas mejoras que con el tiempo se podrían realizar como por ejemplo. evitar que se coloque ceros en la edad, en la estatura evitar por ejemplo si la persona mide un metro con 60 centímetros no dejar que omita el punto decimal para que diga 1.60 y no 160.
+
 ## Conclusión – Aprendizaje
 En este ejercicio utilicé en Python el paradigma estructurado, organizando el código en scripts con una lógica clara. Aprendí a:
 
